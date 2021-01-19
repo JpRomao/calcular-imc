@@ -1,0 +1,131 @@
+:root {
+  font: 400 3.6rem Poppins;
+  font-size: 63%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html, body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: royalblue;
+  font-size: 4rem;
+}
+
+#main-div {
+  background-color: white;
+  padding: 2.6rem 4rem;
+  border: 3px solid  rgb(87, 72, 72);
+  border-radius: 1.6rem;
+  box-shadow: 4px 3px rgb(87, 72, 72), -4px -3px rgb(87, 72, 72);
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2.6rem;
+}
+
+.title {
+  font-size: 5.6rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1.65rem;
+  font-weight: 700;
+}
+
+#informations {
+  margin-top: 4.2rem;
+  width: 100%;
+}
+
+.table-content {
+  width: 100%;
+  font-size: 2.8rem;
+}
+
+th {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+td {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+#main {
+  margin-top: 4rem;
+}
+
+.calculator-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.underline {
+  text-decoration: underline;
+  margin-right: 1rem;
+}
+
+#calculator {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.6rem;
+}
+
+.input-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-block label {
+  font-weight: 300;
+  font-size: 1.9rem;
+  margin-right: 0.8rem;
+}
+
+.input-block input {
+  height: 2.3rem;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+
+.btn {
+  margin-top: 2.3rem;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 1.2rem;
+  width: 30%;
+
+  font-size: 2.5rem;
+  font-weight: 700;
+
+  color: white;
+  background-color: mediumslateblue;
+  cursor: pointer;
+}
